@@ -73,7 +73,12 @@ class OrderController extends Controller
         if ($result->success) {
             $data = [
                 'success' => true,
-                'message' => 'Transazione eseguita con successo!'
+                'message' => 'Transazione eseguita con successo!',
+                'customer_name' => $customer_name,
+                'email' => $email,
+                'phone' => $phone,
+                'address' => $address,
+                'amount' => $amount,
             ];
 
 
