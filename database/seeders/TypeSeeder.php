@@ -17,98 +17,114 @@ class TypeSeeder extends Seeder
     public function run(Faker $faker)
     {
         $type = new Type;
-        $type->label = 'Italiana';
-        $type->image = 'assets/types/italy.svg';
+        $type->label = 'Italiana 🇮🇹';
+        // $type->image = 'assets/types/italy.svg';
+        // $type->emoji = '🇮🇹';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Asiatica';
-        $type->image = 'assets/types/asian.jpg';
+        $type->label = 'Asiatica 🍜';
+        // $type->image = 'assets/types/asian.jpg';
+        // $type->emoji = '🍜';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Messicana';
-        $type->image = 'assets/types/mexican.png';
+        $type->label = 'Messicana 🪇';
+        // $type->image = 'assets/types/mexican.png';
+        // $type->emoji = '🪇';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Tedesca';
-        $type->image = 'assets/types/germany.webp';
+        $type->label = 'Tedesca 🇩🇪';
+        // $type->image = 'assets/types/germany.webp';
+        // $type->emoji = '🇩🇪';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Sarda';
-        $type->image = 'assets/types/sardinia.png';
+        $type->label = 'Sarda 🇬🇪';
+        // $type->image = 'assets/types/sardinia.png';
+        // $type->emoji = '🇬🇪';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'BBQ';
-        $type->image = 'assets/types/bbq.webp';
+        $type->label = 'BBQ 🥩';
+        // $type->image = 'assets/types/bbq.webp';
+        //$type->emoji = '🥩';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Pizza';
-        $type->image = 'assets/types/pizza.jpg';
+        $type->label = 'Pizza 🍕';
+        // $type->image = 'assets/types/pizza.jpg';
+        // $type->emoji = '🍕';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Dolci';
-        $type->image = 'assets/types/dessert.avif';
+        $type->label = 'Dolci 🍰';
+        // $type->image = 'assets/types/dessert.avif';
+        // $type->emoji = '🍰 ';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Pesce';
-        $type->image = 'assets/types/fish.jpg';
+        $type->label = 'Pesce 🐟';
+        // $type->image = 'assets/types/fish.jpg';
+        // $type->emoji = '🐟';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Pasta';
-        $type->image = 'assets/types/pasta.webp';
+        $type->label = 'Pasta 🍝';
+        // $type->image = 'assets/types/pasta.webp';
+        // $type->emoji = '🍝';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Tagliere';
-        $type->image = 'assets/types/tagliere misto.jpeg';
+        $type->label = 'Tagliere 🔪🧀🫒🍺';
+        // $type->image = 'assets/types/tagliere misto.jpeg';
+        // $type->emoji = '🔪🧀🫒🍺';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Pollo';
-        $type->image = 'assets/types/pollo arrosto.webp';
+        $type->label = 'Pollo 🍗';
+        // $type->image = 'assets/types/pollo arrosto.webp';
+        // $type->emoji = '🍗';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Vegano';
-        $type->image = 'assets/types/vegetali.jpeg';
+        $type->label = 'Vegano 🥙';
+        // $type->image = 'assets/types/vegetali.jpeg';
+        // $type->emoji = '🥙';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Celiaci';
-        $type->image = 'assets/types/pasta.webp';
+        $type->label = 'Celiaci 🌾';
+        // $type->image = 'assets/types/pasta.webp';
+        // $type->emoji = '🌾';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Gelato';
-        $type->image = 'assets/types/gelato.jpg';
+        $type->label = 'Gelato 🍦';
+        // $type->image = 'assets/types/gelato.jpg';
+        // $type->emoji = '🍦';
         $type->color = $faker->hexColor();
         $type->save();
 
         $type = new Type;
-        $type->label = 'Kebab';
-        $type->image = 'assets/types/kebab.avif';
+        $type->label = 'Kebab 🇹🇷';
+        // $type->image = 'assets/types/kebab.avif';
+        // $type->emoji = '🇹🇷';
         $type->color = $faker->hexColor();
         $type->save();
 
