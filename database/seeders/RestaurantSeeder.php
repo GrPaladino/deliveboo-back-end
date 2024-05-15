@@ -25,15 +25,15 @@ class RestaurantSeeder extends Seeder
                 'image' => 'uploads/restaurants/losporcaccione.png',
                 'address' => 'via innominabile, 44, 70100, Bari',
                 'types' => [
-                    'Italiana',
-                    'BBQ',
-                    'Dolci',
-                    'Celiaci',
-                    'Tagliere',
-                    'Pollo',
-                    'Pizza',
-                    'Vegano',
-                    'Gelato'
+                    'Italiana 🇮🇹',
+                    'BBQ 🥩',
+                    'Dolci 🍰',
+                    'Celiaci 🌾',
+                    'Tagliere 🔪🧀🫒🍺',
+                    'Pollo 🍗',
+                    'Pizza 🍕',
+                    'Vegano 🥙',
+                    'Gelato 🍦'
                 ],
             ],
             [
@@ -44,11 +44,11 @@ class RestaurantSeeder extends Seeder
                 'image' => 'uploads/restaurants/lasiaticoallegro.png',
                 'address' => 'via della seta, 99, 20100, Milano',
                 'types' => [
-                    'Asiatica',
-                    'Pesce',
-                    'Celiaci',
-                    'Gelato',
-                    'Dolci'
+                    'Asiatica 🍜',
+                    'Pesce 🐟',
+                    'Celiaci 🌾',
+                    'Gelato 🍦',
+                    'Dolci 🍰'
 
 
                 ],
@@ -62,12 +62,12 @@ class RestaurantSeeder extends Seeder
                 'image' => 'uploads/restaurants/messicanino.jpg',
                 'address' => 'via del sombrero, 22, 20100, Milano',
                 'types' => [
-                    'Messicana',
-                    'BBQ',
-                    'Celiaci',
-                    'Vegano',
-                    'Tagliere',
-                    'Dolci'
+                    'Messicana 🪇',
+                    'BBQ 🥩',
+                    'Celiaci 🌾',
+                    'Vegano 🥙',
+                    'Tagliere 🔪🧀🫒🍺',
+                    'Dolci 🍰'
                 ],
             ],
             [
@@ -78,12 +78,11 @@ class RestaurantSeeder extends Seeder
                 'image' => 'uploads/restaurants/nonno-bismarck.jpg',
                 'address' => 'via bellicosa, XX, 40100, Bologna',
                 'types' => [
-                    'Tedesca',
-                    'Dolci',
-                    'Vegano',
-                    'Celiaci',
-                    'BBQ',
-                    'Dolci'
+                    'Tedesca 🇩🇪',
+                    'Vegano 🥙',
+                    'Celiaci 🌾',
+                    'BBQ 🥩',
+                    'Dolci 🍰'
 
                 ],
             ],
@@ -95,13 +94,13 @@ class RestaurantSeeder extends Seeder
                 'image' => 'uploads/restaurants/da-demetrio.jpg',
                 'address' => 'via arrabbiata, 69, 07100, Sassari',
                 'types' => [
-                    'Italiana',
-                    'Sarda',
-                    'Tagliere',
-                    'Celiaci',
-                    'Pasta',
-                    'Vegano',
-                    'Dolci'
+                    'Italiana 🇮🇹',
+                    'Sarda 🇬🇪',
+                    'Tagliere 🔪🧀🫒🍺',
+                    'Celiaci 🌾',
+                    'Pasta 🍝',
+                    'Vegano 🥙',
+                    'Dolci 🍰'
                 ],
             ],
             [
@@ -112,13 +111,13 @@ class RestaurantSeeder extends Seeder
                 'image' => 'uploads/restaurants/il-buco.jpeg',
                 'address' => 'via giocosa, XX, 41100, Modena',
                 'types' => [
-                    "Pesce",
-                    'Italiana',
-                    'Pizza',
-                    'Pasta',
-                    'Dolci',
-                    'Celiaci',
-                    'Vegano',
+                    "Pesce 🐟",
+                    'Italiana 🇮🇹',
+                    'Pizza 🍕',
+                    'Pasta 🍝',
+                    'Dolci 🍰',
+                    'Celiaci 🌾',
+                    'Vegano 🥙',
                 ],
             ],
 
