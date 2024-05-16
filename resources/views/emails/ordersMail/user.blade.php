@@ -4,7 +4,7 @@
     Il tuo ordine é stato creato
 
     Prepara la tavola!
-    Il tuo ordine di Deliveboo sta arrivando!
+    Il tuo ordine di Boolivery sta arrivando!
     Ecco un riepilogo dei dati che hai inserito:
     Nome e cognome: {{$order['customer_name']}}
     Email: {{ $order['email'] }}
