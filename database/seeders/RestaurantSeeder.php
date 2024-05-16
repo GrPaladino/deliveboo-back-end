@@ -29,7 +29,7 @@ class RestaurantSeeder extends Seeder
                     'BBQ 🥩',
                     'Dolci 🍰',
                     'Celiaci 🌾',
-                    'Tagliere 🔪🧀🫒🍺',
+                    'Tagliere 🔪',/* 🧀🫒🍺 */
                     'Pollo 🍗',
                     'Pizza 🍕',
                     'Vegano 🥙',
@@ -66,7 +66,7 @@ class RestaurantSeeder extends Seeder
                     'BBQ 🥩',
                     'Celiaci 🌾',
                     'Vegano 🥙',
-                    'Tagliere 🔪🧀🫒🍺',
+                    'Tagliere 🔪',/* 🧀🫒🍺 */
                     'Dolci 🍰'
                 ],
             ],
@@ -96,7 +96,7 @@ class RestaurantSeeder extends Seeder
                 'types' => [
                     'Italiana 🇮🇹',
                     'Sarda 🇬🇪',
-                    'Tagliere 🔪🧀🫒🍺',
+                    'Tagliere 🔪', /* 🧀🫒🍺 */
                     'Celiaci 🌾',
                     'Pasta 🍝',
                     'Vegano 🥙',

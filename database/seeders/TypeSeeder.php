@@ -87,7 +87,7 @@ class TypeSeeder extends Seeder
         $type->save();
 
         $type = new Type;
-        $type->label = 'Tagliere 🔪🧀🫒🍺';
+        $type->label = 'Tagliere 🔪';/* 🧀🫒🍺 */
         // $type->image = 'assets/types/tagliere misto.jpeg';
         // $type->emoji = '🔪🧀🫒🍺';
         $type->color = $faker->hexColor();
