@@ -33,7 +33,7 @@ class OrderRestaurantMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Conferma ordine',
+            subject: "C'è Nuovo Ordine!",
         );
     }
 
