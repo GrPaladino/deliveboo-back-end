@@ -29,7 +29,7 @@ class OrderSeeder extends Seeder
             ;
             $order->phone = $faker->phoneNumber();
             $order->address = $faker->address();
-            $order->date_time = $faker->dateTimeBetween('2023-01-01', '2024-12-31')->format('Y-m-d');
+            $order->date_time = $faker->dateTimeBetween('2023-01-01', today())->format('Y-m-d');
             $order->price = $faker->randomFloat(2, 0, 999);
 
             $order->save();
