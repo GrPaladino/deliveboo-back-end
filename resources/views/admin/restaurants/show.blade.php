@@ -56,16 +56,18 @@
                     {{-- TIPO RISTORANTE --}}
                     <div class="col-12">
                         <h5 class="mb-4">Tipologia Ristorante</h5>
-                        @foreach ($restaurant->types->sortBy('label') as $type)
-                        {{-- <p class="detailCap">{{ $type->label }}</p> --}}
-                        <div class="badge">
-                            <div class="typeBadge">
-                                <div class="badgeImg"><img src="{{ asset($type->image) }}" alt="" width="100%">
-                                </div>
-                                <span>{{ $type->label }}</span>
-                            </div>
+                        <div class="badgesContainer d-flex justify-content-center flex-wrap">
+                           @foreach ($restaurant->types->sortBy('label') as $type)
+                           {{-- <p class="detailCap">{{ $type->label }}</p> --}}
+                           <div class="badge">
+                               <div class="typeBadge">
+                                   <div class="badgeImg"><img src="{{ asset($type->image) }}" alt="" width="100%">
+                                   </div>
+                                   <span>{{ $type->label }}</span>
+                               </div>
+                           </div>
+                           @endforeach
                         </div>
-                        @endforeach
                     </div>
                 </div>
 
