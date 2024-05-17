@@ -19,24 +19,25 @@ class OrderSeeder extends Seeder
      */
     public function run(Faker $faker)
     {
-        
+
         // creo un  nuovo ordine
-        for($i = 0; $i < 100; $i++) {
+        for ($i = 0; $i < 400; $i++) {
 
             $order = new Order;
             $order->customer_name = $faker->firstName();
-            $order->email = $faker->email();;
+            $order->email = $faker->email();
+            ;
             $order->phone = $faker->phoneNumber();
             $order->address = $faker->address();
-            $order->date_time = $faker->dateTimeBetween('2024-01-01', '2024-12-31')->format('Y-m-d');
+            $order->date_time = $faker->dateTimeBetween('2023-01-01', '2024-12-31')->format('Y-m-d');
             $order->price = $faker->randomFloat(2, 0, 999);
-            
+
             $order->save();
-            
+
             // collego l'ordine ad un piatto randomico
             $dish = Dish::where('id', random_int(1, 30))->get();
             $order->dishes()->attach($dish);
         }
-        
+
     }
 }
