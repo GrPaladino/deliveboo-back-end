@@ -15,7 +15,6 @@ class OrderUserMail extends Mailable
 
     public $order;
 
-
     /**
      * Create a new message instance.
      *
@@ -34,7 +33,7 @@ class OrderUserMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Nuovo Ordine',
+            subject: 'Conferma invio ordine',
         );
     }
 
