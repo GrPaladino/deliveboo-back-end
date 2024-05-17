@@ -20,7 +20,7 @@
                 Vai ai tuoi Ordini</a>
 
             <h3 class="text-center">CONTATTI</h3>
-            <table class="table">
+            <table class="table text-center">
                 <thead>
                     <tr>
                         <th scope="col">Nome cliente</th>
@@ -28,7 +28,7 @@
                         <th scope="col">Telefono</th>
                         <th scope="col">Indirizzo</th>
                         <th scope="col">Data ordine</th>
-                        <th scope="col">Prezzo (€)</th>
+                        <th scope="col">Prezzo</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -38,7 +38,7 @@
                         <td>{{ $order->phone }}</td>
                         <td>{{ substr($order->address, 0, 10) . '...' }}</td>
                         <td>{{ date('d/m/Y', strtotime($order->date_time)) }}</td>
-                        <td>{{ str_replace('.', ',', $order->price) }}</td>
+                        <td>{{ '€ ' . str_replace('.', ',', $order->price) }}</td>
                     </tr>
                 </tbody>
             </table>

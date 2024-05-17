@@ -45,7 +45,7 @@
 
                 {{-- TABLE --}}
                 <div>
-                    <table class="table">
+                    <table class="table text-center">
                         <thead>
                             <tr>
                                 <th scope="col">Nome cliente</th>
@@ -54,7 +54,7 @@
                                 <th scope="col">Indirizzo</th>
 
                                 <th scope="col">Data ordine</th>
-                                <th scope="col">Prezzo(€)</th>
+                                <th scope="col">Prezzo</th>
 
                                 <th scope="col">Dettagli</th>
                             </tr>
@@ -73,7 +73,7 @@
                                     <td>{{ $order->phone }}</td>
                                     <td>{{ substr($order->address, 0, 10) . '...' }}</td>
                                     <td>{{ date('d/m/Y', strtotime($order->date_time)) }}</td>
-                                    <td>{{ str_replace('.', ',', $order->price) }}</td>
+                                    <td>{{ '€ ' . str_replace('.', ',', $order->price) }}</td>
                                     <td><a href="{{ route('admin.orders.show', $order) }}"><i
                                                 class="fa-solid fa-table-list"></i></a></td>
                                 </tr>
