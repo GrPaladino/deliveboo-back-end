@@ -8,7 +8,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-height: 300px;
+    /* max-height: 300px; */
+    height: max-content;
 
     &:hover {
         box-shadow: 0 0 7px black;
