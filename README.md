@@ -1,56 +1,55 @@
-# Boolivery
+# This is the back-end of Boolivery.
 
-## Back-End
-Si tratta di un progetto FullStack dove abbiamo suddiviso nel lato back-end l'interfaccia per un eventuale ristoratore, il quale può registrarsi inserendo i propri dati e aggiungendo alla piattaforma il proprio ristorante con le relative caratteristiche richieste.
+## Let's see what it can do.
 
-Successivamente il ristoratore può aggiungere i piatti del proprio ristorante che verranno inseriti in un elenco da cui si possono facilmente aggiungere altri piatti, eliminarli, osservarne nel dettaglio le informazioni, modificare quest'ultime oppure renderli disponibili/non disponibili.
+-   Restaurant Registration:
 
-In questa interfaccia è anche possibile monitorare le statistiche relative al numero di ordini dell'ultimo anno, osservandole suddivise nei 12 mesi. Usando la stessa dashboard è possibile vedere anche i guadagni scorporati nello stesso modo e si possono ricontrollare le informazioni degli ordini ricevuti.
+    -   Restaurant owners can use the back-end to register their restaurants. They provide details such as restaurant name, location, and contact information.
 
-## Front-End
-Nel front-end un eventuale utente può visualizzare l'elenco di ristoranti, filtrarli per categoria di piatti e selezionare uno di essi verso il quale effettuare il proprio ordine. 
+    -   Each registered restaurant is associated with a unique identifier.
 
-A questo punto si aprirà la schermata del menù con i piatti di cui si possono visualizzare i dettagli e che si possono aggiungere al proprio carrello nelle quantità desiderate.
+-   Menu Management:
 
-Dopo aver scelto i piatti del proprio ordine il cliente può procedere nella pagina di acquisto dove può visualizzare un riepilogo dei piatti scelti, delle loro quantità, del loro prezzo sia scorporato, sia complessivo. Dopo aver controllato l'ordine il cliente potrà inserire i propri dati necessari per effettuare la spedizione nei suoi confronti e potrà pagare inserendo i dati della carta di credito.
+    -   Once a restaurant is registered, the owner can add its menu items. These items include dishes, beverages, and any other offerings.
 
-Infine verrà spedita un'email di conferma dell'ordine al cliente ed una mail di segnalazione dell'ordine al ristoratore che potrà attivarsi per soddisfare la clientela.
+    -   Menu items are stored in the database and linked to the respective restaurant.
 
-## Per aprire il progetto
+-   Dish Details:
 
-Aprire un primo terminale su VScode:
+    -   For each menu item (dish), the back-end stores information such as name, description, price, and availability status (whether it’s currently offered or not).
 
-```
-npm install
-npm run dev
-```
+    -   Owners can easily modify these details as needed.
 
-Aprire un secondo terminale su VScode:
+-   Order Tracking and Statistics:
 
-```
-composer install
-php artisan serve
-```
+    -   The back-end keeps track of orders received by each restaurant.
 
-Poi copiare il file `.env.example` in `.env` e configura la connessione al Database
+    -   Restaurant owners can view statistics related to order volume over the past year. These stats are broken down by month, allowing owners to identify trends.
 
-## Progetto Finale di fine corso
+-   Earnings Monitoring:
 
-<h1> work in progress</h1>
+    -   Alongside order statistics, the back-end calculates earnings for each restaurant.
 
-PER I MIEI CARI COLLEGHI DI PROGETTO
+    -   Owners can see how much revenue their restaurant has generated during specific time periods.
 
-1. installate la libreria braintree:
+In summary, the back-end of Boolivery empowers restaurant owners to manage their menus, track orders, and monitor financial performance.
 
-```
-composer require braintree/braintree_php
-```
+## Screen
 
-2. aggiungere credenziali nel file .env
+![screen](/public/assets/screen1.png)
 
-```
-BRAINTREE_ENV=sandbox
-BRAINTREE_MERCHANT_ID=9bpqhpnxss37n4yn
-BRAINTREE_PUBLIC_KEY=qps7zb7rhqxspfq9
-BRAINTREE_PRIVATE_KEY=2a987408eabd64247f16185a7be09abe
-```
+![screen](/public/assets/screen2.png)
+
+![screen](/public/assets/screen3.png)
+
+![screen](/public/assets/screen4.png)
+
+![screen](/public/assets/screen5.png)
+
+![screen](/public/assets/screen6.png)
+
+![screen](/public/assets/screen7.png)
+
+![screen](/public/assets/screen8.png)
+
+![screen](/public/assets/screen9.png)
